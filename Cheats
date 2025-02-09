@@ -361,7 +361,7 @@ local Button = PlayerTab:CreateButton({
 
                local PlayerTab = Window:CreateTab("Universe Football", 4483362458) -- Title, Image
                local Button = PlayerTab:CreateButton({
-                  Name = "🏈NFL Universe Football🏈",
+                  Name = "🏈NFL Universe Football🏈 This has free Emotes!!!",
                      Callback = function()
                         loadstring(game:HttpGet("https://raw.githubusercontent.com/IAmJamal10/Scripts/refs/heads/main/Football"))()
                      end,
@@ -371,7 +371,7 @@ local Button = PlayerTab:CreateButton({
 
                   
                local Button = PlayerTab:CreateButton({
-                  Name = "🏈NFL Universe Football🏈",
+                  Name = "🏈NFL Universe Football🏈 This one has auto catch every time and speed",
                      Callback = function()
                         loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/03624f832da93e45f8dc1d8234f7bfca.lua"))()
                      end,
