@@ -336,7 +336,7 @@ local Button = PlayerTab:CreateButton({
                local Button = PlayerTab:CreateButton({
                   Name = "🔫Rivals🔫",
                      Callback = function()
-                        loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/main/TbaoHubRivals"))()
+                        loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/1cd6fc0d685d8dcae4a3c05f01182061.lua"))()
                      end,
                   })
 
