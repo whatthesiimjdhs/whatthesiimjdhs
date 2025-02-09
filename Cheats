@@ -1,11 +1,11 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-   Name = "Clix Menu",
+   Name = "Zeroonclips Cheats",
    Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
-   LoadingTitle = "Skibidi",
-   LoadingSubtitle = "by clix",
-   Theme = "Default", -- Check https://docs.sirius.menu/rayfield/configuration/themes
+   LoadingTitle = "Be Patient Damn",
+   LoadingSubtitle = "by Aj",
+   Theme = "Amethyst", -- Check https://docs.sirius.menu/rayfield/configuration/themes
 
    DisableRayfieldPrompts = false,
    DisableBuildWarnings = false, -- Prevents Rayfield from warning when the script has a version mismatch with the interface
@@ -270,7 +270,7 @@ local Section = PlayerTab:CreateSection("Scripts")
 
 local PlayerTab = Window:CreateTab("The Scripts", nil) -- Title, Image
 local Button = PlayerTab:CreateButton({
-Name = "⚔️BladeBall⚔️ It is a Hub that has many other games Too",
+Name = "⚔️BladeBall⚔️ Hub that has many other games Too",
    Callback = function()
       loadstring(game:HttpGet("https://raw.githubusercontent.com/PawsThePaw/Plutonium.AA/main/Plutonium.Loader.lua", true))()
    end,
