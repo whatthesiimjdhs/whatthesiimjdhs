@@ -272,7 +272,7 @@ local PlayerTab = Window:CreateTab("The Scripts", nil) -- Title, Image
 local Button = PlayerTab:CreateButton({
 Name = "⚔️BladeBall⚔️",
    Callback = function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/mzkv/LUNAR/refs/heads/main/BladeBall", true))()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/PawsThePaw/Plutonium.AA/main/Plutonium.Loader.lua", true))()
    end,
 })
 
@@ -316,6 +316,8 @@ local Button = PlayerTab:CreateButton({
                end,
             })
 
+
+      
             local Button = PlayerTab:CreateButton({
                Name = "🏈NFL Universe Football🏈",
                   Callback = function()
