@@ -357,3 +357,23 @@ local Button = PlayerTab:CreateButton({
                      loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/7b4f22e1726966f40c91521aaeb11953.lua"))()
                   end,
                })
+
+
+               local PlayerTab = Window:CreateTab("Universe Football", 4483362458) -- Title, Image
+               local Button = PlayerTab:CreateButton({
+                  Name = "🏈NFL Universe Football🏈",
+                     Callback = function()
+                        loadstring(game:HttpGet("https://raw.githubusercontent.com/IAmJamal10/Scripts/refs/heads/main/Football"))()
+                     end,
+                  })
+
+
+
+                  
+               local Button = PlayerTab:CreateButton({
+                  Name = "🏈NFL Universe Football🏈",
+                     Callback = function()
+                        loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/03624f832da93e45f8dc1d8234f7bfca.lua"))()
+                     end,
+                  })
+
